@@ -31,7 +31,7 @@
       // .deck.json5 extension.
       decks: ["cah-base-en"]  
     },
-    
+
     // Allows players to load decks from Many Decks.
     manyDecks: {
       baseUrl: "https://decks.rereadgames.com/",
@@ -68,15 +68,15 @@
         timeLimitMode: "Soft",
         playing: {
           duration: 120,
-          after: 10,
+          after: 2,
         },
         revealing: {
           duration: 60,
-          after: 10,
+          after: 2,
         },
         judging: {
           duration: 600,
-          after: 10,
+          after: 2,
         },
       },
     },

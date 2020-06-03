@@ -229,20 +229,15 @@ view shared model =
             ]
         , Html.footer [ HtmlA.class "version-info" ]
             [ Html.div [ HtmlA.class "logos" ]
-                [ Html.blankA
+                 [ Html.blankA
                     [ HtmlA.class "logo"
                     , Strings.MDProject |> Lang.title shared
-                    , HtmlA.href "https://github.com/Lattyware/massivedecks"
+                    , HtmlA.href "https://github.com/narwhalacademy/massivedecks"
                     ]
                     [ Icon.viewStyled [ Strings.MDLogoDescription |> Lang.alt shared ] Icon.massiveDecks ]
-                , Html.blankA
-                    [ HtmlA.class "logo"
-                    , Strings.DevelopedByReread |> Lang.title shared
-                    , HtmlA.href "https://www.rereadgames.com/"
-                    ]
-                    [ Icon.viewStyled [ Strings.RereadLogoDescription |> Lang.alt shared ] Icon.rereadGames ]
                 ]
-            , Html.p [ HtmlA.class "version" ]
+            , 
+            Html.p [ HtmlA.class "version" ]
                 [ Html.text "\""
                 , Strings.MassiveDecks |> Lang.html shared
                 , Html.text "\" "
@@ -562,24 +557,26 @@ aboutContent shared =
         , Html.p [] [ Strings.RulesCzar |> html ]
         , Html.p [] [ Strings.RulesPlaying |> html ]
         , Html.p [] [ Strings.RulesJudging |> html ]
-        , Html.figure [ HtmlA.class "example-card" ]
-            [ Call.view shared Configure.fake Card.Front [] examplePick2
-            , Html.figcaption []
-                [ Strings.ExamplePickDescription |> html ]
-            ]
-        , Html.h3 [] [ Strings.RulesPickTitle |> html ]
-        , Html.p [] [ Strings.RulesPick |> html ]
-        , Html.p [] [ Strings.RulesDraw |> html ]
-        , Html.h2 [] [ Strings.HouseRulesTitle |> html ]
-        , Html.p [] [ Strings.HouseRules |> html ]
-        , Html.ul [ Icon.ul, SvgA.class "rule-list" ] (houseRules |> List.map (houseRule shared))
+        -- , Html.figure [ HtmlA.class "example-card" ]
+        --    [ Call.view shared Configure.fake Card.Front [] examplePick2
+        --    , Html.figcaption []
+        --        [ Strings.ExamplePickDescription |> html ]
+        --    ]
+        -- , Html.h3 [] [ Strings.RulesPickTitle |> html ]
+        -- , Html.p [] [ Strings.RulesPick |> html ]
+        -- , Html.p [] [ Strings.RulesDraw |> html ]
+        -- , Html.h2 [] [ Strings.HouseRulesTitle |> html ]
+        -- , Html.p [] [ Strings.HouseRules |> html ]
+        -- , Html.ul [ Icon.ul, SvgA.class "rule-list" ] (houseRules |> List.map (houseRule shared))
         ]
 
-
+{-
 houseRules : List ( MdString, MdString )
 houseRules =
-    [ ( Strings.HouseRuleReboot, Strings.HouseRuleRebootDescription { cost = Nothing } )
-    , ( Strings.HouseRulePackingHeat, Strings.HouseRulePackingHeatDescription )
+    [
+
+    ( Strings.HouseRuleReboot, Strings.HouseRuleRebootDescription { cost = Nothing } )
+    -- , ( Strings.HouseRulePackingHeat, Strings.HouseRulePackingHeatDescription )
     , ( Strings.HouseRuleRandoCardrissian, Strings.HouseRuleRandoCardrissianDescription )
     , ( Strings.HouseRuleComedyWriter, Strings.HouseRuleComedyWriterDescription )
     , ( Strings.HouseRuleNeverHaveIEver, Strings.HouseRuleNeverHaveIEverDescription )
@@ -592,8 +589,8 @@ houseRule shared ( name, description ) =
         [ Html.h3 [] [ name |> Lang.html shared ]
         , Html.p [] [ description |> Lang.html shared ]
         ]
-
-
+-}
+{-
 examplePick2 : Card.Call
 examplePick2 =
     Card.call
@@ -609,3 +606,4 @@ examplePick2 =
         )
         ""
         (Source.Fake Nothing)
+-}

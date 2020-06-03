@@ -30,7 +30,7 @@ translate mdString =
     case mdString of
         -- General
         MassiveDecks ->
-            [ Text "Massive Decks" ]
+            [ Text "Safety Safari Online" ]
 
         Close ->
             [ Text "Close" ]
@@ -48,18 +48,18 @@ translate mdString =
             [ Text "Version “", Text versionNumber, Text "”" ]
 
         ShortGameDescription ->
-            [ Text "A comedy party game." ]
+            [ Text "MASSIVE DECKS game remixed for digital safety training" ]
 
         WhatIsThis ->
             [ Text "What is ", Ref MassiveDecks, Text "?" ]
 
         GameDescription ->
             [ Ref MassiveDecks
-            , Text " is a comedy party game based on "
-            , Ref CardsAgainstHumanity
-            , Text ", developed by "
+            , Text " is a digital safety training quiz game based on the Many Decks game developed by "
             , Ref RereadGames
-            , Text " and other contributors—the game is open source under "
+            , Text " and co., which itself is modeled on "
+            , Ref CardsAgainstHumanity
+            , Text ". The Many Decks project is open source under "
             , Ref License
             , Text ", so you can help improve the game, access the source code, or just find out more at "
             , Ref MDProject
@@ -167,7 +167,7 @@ translate mdString =
             , Ref Call
             , Text " before presenting each answer. The "
             , Ref Czar
-            , Text " then picks the funniest play, and whoever played it gets one "
+            , Text " then picks their favorite, and whoever played it gets one "
             , Ref Point
             , Text "."
             ]

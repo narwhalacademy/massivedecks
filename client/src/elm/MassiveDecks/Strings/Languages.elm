@@ -44,8 +44,8 @@ import Material.Attributes as Material
 languages : List Language
 languages =
     [ En
-    , It
-    , PtBR
+    -- , It
+    -- , PtBR
     ]
 
 
