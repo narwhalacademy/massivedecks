@@ -15,9 +15,10 @@ all setPasswordVisibility =
         { id = All
         , editor = Editor.group (Just Strings.ConfigurePrivacy) False False
         , children =
-            [ public |> Configurable.wrap identity (.public >> Just) (\v p -> { p | public = v })
-            , password setPasswordVisibility |> Configurable.wrap identity (.password >> Just) (\v p -> { p | password = v })
-            , audienceMode |> Configurable.wrap identity (.audienceMode >> Just) (\v p -> { p | audienceMode = v })
+            [
+            -- [ public |> Configurable.wrap identity (.public >> Just) (\v p -> { p | public = v })
+            password setPasswordVisibility |> Configurable.wrap identity (.password >> Just) (\v p -> { p | password = v })
+            -- , audienceMode |> Configurable.wrap identity (.audienceMode >> Just) (\v p -> { p | audienceMode = v })
             ]
         }
 

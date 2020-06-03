@@ -21,19 +21,18 @@ all =
             ]
         }
 
-
 default : Rules.ComedyWriter
-default =
-    { exclusive = False
-    , number = 3
+default = 
+    {
+    exclusive = True
+    , number = 50
     }
-
 
 enabled : Configurable Id Bool model msg
 enabled =
     Configurable.value
         { id = Enabled
-        , editor = Editor.bool Strings.HouseRuleComedyWriter
+        , editor = Editor.bool Strings.HouseRuleComedyWriter 
         , validator = Validator.none
         , messages = always [ Message.info Strings.HouseRuleComedyWriterDescription ]
         }

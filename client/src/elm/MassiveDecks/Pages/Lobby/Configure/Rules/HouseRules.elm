@@ -19,10 +19,11 @@ all =
         { id = All
         , editor = Editor.group (Just Strings.HouseRulesTitle) False False
         , children =
-            [ Rando.all |> Configurable.wrap RandoId (.rando >> Just) (\v p -> { p | rando = v })
-            , PackingHeat.all |> Configurable.wrap PackingHeatId (.packingHeat >> Just) (\v p -> { p | packingHeat = v })
-            , Reboot.all |> Configurable.wrap RebootId (.reboot >> Just) (\v p -> { p | reboot = v })
-            , ComedyWriter.all |> Configurable.wrap ComedyWriterId (.comedyWriter >> Just) (\v p -> { p | comedyWriter = v })
-            , NeverHaveIEver.all |> Configurable.wrap NeverHaveIEverId (.neverHaveIEver >> Just) (\v p -> { p | neverHaveIEver = v })
+            [
+            -- Rando.all |> Configurable.wrap RandoId (.rando >> Just) (\v p -> { p | rando = v })
+            -- , PackingHeat.all |> Configurable.wrap PackingHeatId (.packingHeat >> Just) (\v p -> { p | packingHeat = v })
+            -- , Reboot.all |> Configurable.wrap RebootId (.reboot >> Just) (\v p -> { p | reboot = v })
+            -- , ComedyWriter.all |> Configurable.wrap ComedyWriterId (.comedyWriter >> Just) (\v p -> { p | comedyWriter = v })
+            -- , NeverHaveIEver.all |> Configurable.wrap NeverHaveIEverId (.neverHaveIEver >> Just) (\v p -> { p | neverHaveIEver = v })
             ]
         }

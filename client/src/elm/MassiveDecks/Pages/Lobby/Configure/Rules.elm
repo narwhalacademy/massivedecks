@@ -29,8 +29,9 @@ gameRules =
         { id = GameRules
         , editor = Editor.group (Just Strings.ConfigureRules) False False
         , children =
-            [ handSize |> Configurable.wrap identity (.handSize >> Just) (\v p -> { p | handSize = v })
-            , scoreLimit |> Configurable.wrap identity (.scoreLimit >> Just) (\v p -> { p | scoreLimit = v })
+            [
+            -- handSize |> Configurable.wrap identity (.handSize >> Just) (\v p -> { p | handSize = v })
+            scoreLimit |> Configurable.wrap identity (.scoreLimit >> Just) (\v p -> { p | scoreLimit = v })
             ]
         }
 
