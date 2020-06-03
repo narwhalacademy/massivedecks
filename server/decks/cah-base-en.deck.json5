@@ -5,85 +5,79 @@
   calls: [
     [
       [
-        "You can't find your mobile phone. What do you do?",
+        "There’s an iPhone on your desk at work and it’s not yours. You ask around the room and nobody knows who’s it is. What do you do? 🎁",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You're about to go to a protest, and you need to bring your one phone. What do you delete off of it beforehand?",
+        "You can't find your mobile phone. What do you do? 📱",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You need to share an account password with a friend. It's urgent. What do you do?",
+        "You're about to go to a protest, and you need to bring your one phone. What do you delete off of it beforehand? ❌",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "Your social media posts are constantly receiving comments from people that are disagreeing with you or being sarcastic. What do you do?",
+        "You have to tell a friend a secret, but they’re in an another country. It’s complicated so you need to have a voice or video conversation about it. What do you do? 🤫",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You want to join a new online social network for a three-year research study. The network uses your phone number as identification. How do you stay anonymous on this network?",
+        "You need to share an account password with a friend. It's urgent. What do you do? 🔑",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You discover that your new business partner has really bad digital security habits but strongly believes they're not a target in any way. What do you do?",
+        "Your run into your frenemy three times in one week. What do you do? 🦹🏼‍♀️",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "Your new job requires you to review and annotate violent images online. How do you cope?",
+        "Your social media posts are constantly receiving comments from people that are disagreeing with you or being sarcastic. What do you do? 🤡",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You and your new romantic partner begin exchanging private photos. How do you protect yourself?",
+        "A few people are spreading false information about you on social media that they think is actually true. What do you do? 🌝",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You and your new romantic partner begin exchanging private photos. How do you protect yourself?",
+        "You want to join a new online social network for a three-year research study. The network uses your phone number as identification. How do you stay anonymous on this network? 🕶",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "Your run into your frenemy three times in one week. What do you do?",
+        "You discover that your new business partner has really bad digital security habits but strongly believes they're not a target in any way. What do you do? 🤦🏾‍♂️",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You need to share an account password with a friend. It's urgent. What do you do?",
+        "You and your new romantic partner begin exchanging private photos. How do you protect yourself? 🍑",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "There’s an iPhone on your desk at work and it’s not yours. You ask around the room and nobody knows who’s it is. What do you do?",
+        "You receive an email from a stranger that has one of your passwords. They threaten to release your private photos unless you send them some bitcoin. What do you do? 🕵🏽‍♀️",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
     [
       [
-        "You receive an email from a stranger that has one of your passwords. They threaten to release your private photos unless you send them some bitcoin. What do you do?",
-      ],
-      [ { transform: "Capitalize", }, ".", ],
-    ],
-    [
-      [
-        "A few people are spreading false information about you on social media that they think is actually true. What do you do?",
+        "Your new job requires you to review and annotate violent images online. How do you cope? 😔",
       ],
       [ { transform: "Capitalize", }, ".", ],
     ],
