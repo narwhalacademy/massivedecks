@@ -1,12 +1,12 @@
 # [Safety Safari Online (Massive Decks remix)
 
-Safety Safari Online is a digital safety training quiz game based on the Massive Decks. **This is an early beta edition of our game.**
+Safety Safari Online is a digital safety training quiz game based on the Massive Decks. **This is an early beta edition of our online game.**
 
 Massive Decks is a free, open source comedy party game based on [Cards against Humanity][cah]. Play with friends!
 
 **[Play Safety Safari (Beta)][hosted]**
 
-[hosted]: https://massivedecksna.herokuapp.com
+[hosted]: https://safetysafari.herokuapp.com
 
 ## Features
 

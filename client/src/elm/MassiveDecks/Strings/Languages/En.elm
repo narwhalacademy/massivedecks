@@ -48,7 +48,7 @@ translate mdString =
             [ Text "Version “", Text versionNumber, Text "”" ]
 
         ShortGameDescription ->
-            [ Text "MASSIVE DECKS game remixed for digital safety training" ]
+            [ Text "digital safety training quiz game, based on Massive Decks" ]
 
         WhatIsThis ->
             [ Text "What is ", Ref MassiveDecks, Text "?" ]
