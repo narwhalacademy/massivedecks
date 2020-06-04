@@ -55,13 +55,13 @@ translate mdString =
 
         GameDescription ->
             [ Ref MassiveDecks
-            , Text " is a digital safety training quiz game based on the Massives Decks game developed by "
+            , Text " is a digital safety training quiz game by the Narwhal Academy. The online edition has been built on "
             , Ref RereadGames
-            , Text " and co., which itself is modeled on "
+            , Text " Massives Decks game, which itself is modeled on "
             , Ref CardsAgainstHumanity
-            , Text ". The Massive Decks project is open source under "
+            , Text ". The original Massive Decks project is open source under "
             , Ref License
-            , Text ", so you can help improve the game, access the source code, or just find out more at "
+            , Text ", so we are similarly open sourcing our game at "
             , Ref MDProject
             , Text "."
             ]
@@ -97,7 +97,7 @@ translate mdString =
             [ Text "A book circled by a recycling arrow." ]
 
         MDProject ->
-            [ Text "the GitHub project" ]
+            [ Text "our GitHub page" ]
 
         License ->
             [ Text "the AGPLv3 license" ]
