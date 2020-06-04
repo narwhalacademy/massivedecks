@@ -48,6 +48,11 @@ $response-background: $call-color;
     --fg: #{$response-color};
   }
 
+  // comedy writer option is all, no need for three cards
+  &.response:nth-child(2), &.response:nth-child(3) {
+    display: none;
+  }
+
   &.call {
     --bg: #{$call-background};
     --fg: #{$call-color};
