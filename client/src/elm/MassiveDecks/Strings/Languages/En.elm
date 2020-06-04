@@ -55,11 +55,11 @@ translate mdString =
 
         GameDescription ->
             [ Ref MassiveDecks
-            , Text " is a digital safety training quiz game based on the Many Decks game developed by "
+            , Text " is a digital safety training quiz game based on the Massives Decks game developed by "
             , Ref RereadGames
             , Text " and co., which itself is modeled on "
             , Ref CardsAgainstHumanity
-            , Text ". The Many Decks project is open source under "
+            , Text ". The Massive Decks project is open source under "
             , Ref License
             , Text ", so you can help improve the game, access the source code, or just find out more at "
             , Ref MDProject

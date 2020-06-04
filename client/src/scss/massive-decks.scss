@@ -259,3 +259,17 @@ a,
     display: inline;
   }
 }
+
+// no public games
+#mdc-tab-3 {
+  display: none;
+}
+
+.about {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about p {
+  line-height: 1.5;
+}

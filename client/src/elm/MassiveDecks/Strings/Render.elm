@@ -214,7 +214,7 @@ enhanceHtml context mdString unenhanced =
             [ Html.blankA [ HtmlA.class "no-wrap", HtmlA.href "https://www.rereadgames.com/" ] unenhanced ]
 
         MDProject ->
-            [ Html.blankA [ HtmlA.class "no-wrap", HtmlA.href "https://github.com/Lattyware/massivedecks" ] unenhanced ]
+            [ Html.blankA [ HtmlA.class "no-wrap", HtmlA.href "https://github.com/narwhalacademy/massivedecks" ] unenhanced ]
 
         License ->
             [ Html.blankA [ HtmlA.href "https://github.com/Lattyware/massivedecks/blob/master/LICENSE" ] unenhanced ]
