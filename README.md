@@ -1,4 +1,4 @@
-# [Safety Safari Online (Massive Decks remix)
+# Safety Safari Online (Massive Decks remix)
 
 Safety Safari Online is a digital safety training quiz game based on the Massive Decks. **This is an early beta edition of our online game.**
 
